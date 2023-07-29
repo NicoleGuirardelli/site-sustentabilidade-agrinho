@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body{font-family: 'Ysabeau Infant', sans-serif;}
+    
+    
+    .cabecalho{
+        background-color: #393a77;
+        color: rgb(19, 18, 18);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25 0px;
+    }
+    
+    .cabecalho-imagem{
+        width: 20%;
+    }
+    
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 40px;
+        font-size: 25px;
+        color: white;
+      }
+      .sustentabilidade-imagem{
+        width: 20%;
+      }
+
+      .sustentabilidade{
+        background-image: linear-gradient(#393a77, #1519ed);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0 ;
+      }
+      .sustentabilidade-div-texto{
+        width: 35%;
+        font-size: 20px;
+      }
+
+      .sustentabilidade-titulo{
+        padding: 24px 0;
+        font-size: 40px;
+      }
+      
