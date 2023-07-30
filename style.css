@@ -14,32 +14,34 @@ body{font-family: 'Ysabeau Infant', sans-serif;}
         align-items: center;
         padding: 25 0px;
     }
+  
     
     .cabecalho-imagem{
-        width: 20%;
+        width: 30%;
+        padding: 100px  ;
+        margin: 0 350px;
+       
     }
     
     .cabecalho-lista-item{
         display: inline-block;
-        margin: 0 40px;
+        margin: 0 10px;
         font-size: 25px;
         color: white;
       }
-      .sustentabilidade-imagem{
-        width: 20%;
-      }
+      
 
       .sustentabilidade{
         background-image: linear-gradient(#393a77, #1519ed);
         color: white;
         display: flex;
         justify-content: center;
-        align-items: center;
+      align-items: center;
         padding: 25px 0 ;
       }
       .sustentabilidade-div-texto{
-        width: 35%;
-        font-size: 20px;
+        width: 30%;
+        font-size: 30px;
       }
 
       .sustentabilidade-titulo{
@@ -47,3 +49,153 @@ body{font-family: 'Ysabeau Infant', sans-serif;}
         font-size: 40px;
       }
       
+  .atitudes{
+    background-image: linear-gradient(#1519ed, rgb(8, 34, 92));
+    color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0 ;
+      }
+      
+      .atitudes-quais{
+        text-align: center;
+      }
+
+      
+
+      .titulo1{
+        font-size: 35px;
+        margin: 0 400px;
+      }
+      
+      .atitude-imagem{
+        width: 50%;
+        padding: 50px;
+        margin: 0 290px;
+  
+      }
+      .texto-atitudes{
+        width:60% ;
+        font-size: 25px;
+        padding: 50px 0;
+        margin: 20px 300px;
+        text-align: center
+      }
+
+      .titulo2 {
+        font-size: 30px;
+        padding: 0 300px;
+      
+      }
+      .sabao{
+        width: 40%;
+        padding: 20px 300px;
+      }
+
+      .fotos-sabao{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+      }
+      .sabao-texto{
+        width: 60%;
+        font-size: 25px;
+        padding: 50px 0;
+        margin: 20px 300px;
+        text-align: center;
+      }
+
+      .titulo3{font-size: 30px;
+        padding: 0 300px;}
+
+        .vasos{
+          width: 40%;
+          padding: 5px 300px;
+        }
+
+        .fotos-vasos{
+          display: grid;
+        grid-template-columns: 50% 50%;
+        }
+
+        .vasos-texto{ width: 60%;
+          font-size: 25px;
+          padding: 50px 0;
+          margin: 20px 300px;
+          text-align: center;}
+
+          .titulo4{font-size: 30px;
+            padding: 0 300px;}
+.comedouro{
+  width: 40%;
+  padding: 5px 300px;
+
+}
+.fotos-comedouro{
+  display: grid;
+        grid-template-columns: 40% 50%;
+}
+
+          .comedouro-texto{ width: 60%;
+            font-size: 25px;
+            padding: 50px 0;
+            margin: 20px 300px;
+            text-align: center;}
+
+            .titulo5{font-size: 30px;
+              padding: 0 300px;}
+
+            .enfeite{ width: 40%;
+              padding: 5px 300px;
+
+            }
+            .fotos-enfeite{display: grid;
+              grid-template-columns: 50% 50%;
+      }
+
+      .enfeite-texto{ width: 60%;
+        font-size: 25px;
+        padding: 50px 0;
+        margin: 20px 300px;
+        text-align: center;}
+
+    
+
+            
+
+            .rodape{
+              background-color: black;
+              color: white;
+               font-size: 30px;
+               text-align: center;
+               padding: 5px 0;
+            }
+            .comentarios{
+              background-color: #100f0f;
+              padding: 10px;
+            }
+            textarea{
+              width: 100%;
+              height: 100px;
+              resize: vertical;
+            }
+           button{
+            background-color: #179617;
+            color: rgb(30, 28, 28);
+            border: none;
+           }
+           .frase{
+            font-size: medium;
+            color: white;
+           }
+           .conclusao{width: 60%;
+            font-size: 30px;
+            padding: 50px 0;
+            margin: 20px 300px;
+            text-align: center;
+color: rgb(226, 70, 4);
+           }
+         
+      
+     
